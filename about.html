@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+
+    <style>
+       body{
+        background-image: url(image/bg/wallpaperflare.com_wallpaper\ \(6\).jpg);
+        position: flex;
+        padding: 20px;
+        text-align: center;
+       }
+        table, th, td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td
+    {
+        text-align: center;
+    }
+    th, td
+    {
+        padding: 5px;
+        color: black;
+        background-color: burlywood;
+    }
+
+    td{
+        padding: 5px;
+        color: black;
+        background-color: beige;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    button{
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #009688;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+
+        }
+        span{
+            background: #009688;
+            height: 100%;
+            width: 0;
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        button:hover span{
+            width: 100%;
+        }
+
+        button:hover{
+            border: none;
+        }
+        
+    </style>
+
+        <body>
+            <h1 style="text-align: center; color: gold;">About Me</h1>
+            <p style="text-align: center; color: aliceblue;">Find out about me</p>
+
+                <img src="image/hey.jpg" alt="Avatar" style="width:200px" width="200" height="200">
+                <p style="color: aliceblue;">Hi and Assalamualaikum, my name is Abdul Rahman Bin Zainal Abidin. I was born and 
+                raised in Kampar, in the state of Perak, <br> and I am now 20 years old. My family consists 
+                of four children, and I am the youngest of the bunch. I continued my education 
+                after <br> I graduated from high school by enrolling in studies at the Universiti Teknologi 
+                MARA (UiTM) campus in Rembau, which is located <br> in Negeri Sembilan. Additionally, this is 
+                the last semester that I am enrolled in the course with the number IM 110.</p>
+                <p style="color: aliceblue;">Those that are aware likely already know that I have a wide variety of interests 
+                that I pursue in my leisure time. Among these are things <br> like going to <b style="color: bisque;">watch the movies, 
+                listening to music, participating in sports, and playing video games.</b></p>
+                <p style="color: blanchedalmond;"><i> Click below to view more. </i></p>
+
+            <p>
+            <table style="width: 100%;">
+                <caption style="color: gold;"><b> <i> My  Biodata </i> </b></caption>
+                <tr>
+                    <th>Name</th>
+                    <td>Abdul Rahman Bin Zainal Abidin</td>
+                </tr>
+                <tr>
+                    <th>Nickname</th>
+                    <td>Aman</td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>20 years old</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>7 May 2002</td>
+                </tr>
+                <tr>
+                    <th>Place of Birth</th>
+                    <td>Kampar, Perak</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Malaysia</td>
+                </tr>
+                <tr>
+                    <th>Religion</th>
+                    <td>Islam</td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>No.1, Jalan Abdul Rahman Kampung Bunga Tanjung 31700 Malim Nawar. Perak</td>
+                </tr>
+            </p>
+            <p></p>
+            <p>
+                <!--Creating button using button onclick-->
+                <button onclick="document.location ='favmovie.html'"><span></span> Favorite Movie</button>
+                <button onclick="document.location ='favsong.html'"><span></span> Favorite Song</button>
+                <button onclick="document.location ='map.html'"><span></span>About Kampar</button>
+                <button onclick="document.location ='Homepage.html'"><span></span>Homepage</button>
+            </p>
+        </body>
+
+</html>
